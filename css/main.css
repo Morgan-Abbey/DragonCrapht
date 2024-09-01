@@ -1,0 +1,38 @@
+html {
+  title
+  background-color: rgba(11, 12, 16, 1);
+  background-image: url("/images/main.jpg");
+  background-repeat: true;
+}
+
+p {
+  color: blue;
+}
+
+.button {
+  background-color: blue;
+  background-image: linear-gradient(to bottom right, rgba(69, 162, 158, .1), rgba(102, 252, 241, 1));
+  border: 2px solid rgba(197, 198, 199, 1);
+  color: rgba(11, 12, 16, 1);
+  padding: 1% 2%;
+  text-align: middle;
+  font-size: 50px;
+  display: inline-block;
+  transition-duration: 1s;
+  font-size-adjust: 10px;
+  margin: 75px 35% 75px 38%;
+
+}
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-image: linear-gradient(to bottom right, rgba(69, 162, 158, .45), rgba(102, 252, 241, 1));
+}
+
+.box {
+  background-color: rgba(31, 40, 51, 1);
+  width: 300px;
+  height: 120px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid black;
+}
