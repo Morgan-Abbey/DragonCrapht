@@ -1,9 +1,9 @@
 html {
-  title
   background-color: rgba(11, 12, 16, 1);
-  background-image: url("/images/main.jpg");
-  background-repeat: true;
+  background-image: url("../images/main.jpg");
+  background-repeat: no-repeat;
 }
+
 
 p {
   color: blue;
